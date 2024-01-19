@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Objects</h2>
+    <script>
+        //object
+        const student = [
+            {firstName: 'noaim', 
+            lastName: 'baulo',
+            MI: 'F.',
+            Section: 'Cooper'
+            },
+
+            {firstName: 'ian', 
+            lastName: 'crisostomo',
+            MI: 'F.',
+            Section: 'Cooper'
+            },
+
+            {firstName: 'lebron', 
+            lastName: 'james',
+            MI: 'M',
+            Section: 'Cooper'
+            }
+        ];
+
+        console.log(student[0]);
+
+        let newStudent = {
+            firstName : "Earl",
+            lastName : "Sto.Domingo",
+            MI:'J.',
+            Section: 'Cooper',
+        }
+        student.push(newStudent);
+        console.log(student);
+
+    </script>
+</body>
+</html>
